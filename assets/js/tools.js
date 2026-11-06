@@ -1,12 +1,1 @@
-// Centrale catalogus. Tools blijven zelfstandig in /tools/<id>/.
-window.ENGINEER_TOOLS = [
-  {
-    id: "example-tool",
-    name: "Voorbeeldtool",
-    description: "Een zelfstandige voorbeeldtool als basis voor nieuwe tools.",
-    category: "Overig",
-    icon: "🛠️",
-    path: "tools/example-tool/",
-    tags: ["voorbeeld", "template"]
-  }
-];
+window.ENGINEER_TOOLS=[{id:'telefoonboek-converter',name:'Telefoonboek converter',description:'Converteer LanTel Move-telefoonboeken naar LanTel Wave.',category:'Telefonie',icon:'☎️',path:'tools/telefoonboek-converter/',tags:['telefoonboek','move','wave','csv','converter']}];
